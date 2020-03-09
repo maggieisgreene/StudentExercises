@@ -8,15 +8,26 @@ namespace StudentExercises
   {
     static void Main(string[] args)
     {
+      var cohort35 = new Cohort()
+      {
+        Name = "C35"
+      };
+      var cohort37 = new Cohort()
+      {
+        Name = "C37"
+      };
+
       var students = new List<Student>();
 
       students.Add(new Student
       {
+        // Cohort = cohort35,
         FirstName = "Brenda",
-        LastName = "Long",
+        LastName = "Long"
       });
       students.Add(new Student
       {
+        // Cohort = cohort37,
         FirstName = "Maggie",
         LastName = "Greene",
         Exercises = new List<Exercise>()
